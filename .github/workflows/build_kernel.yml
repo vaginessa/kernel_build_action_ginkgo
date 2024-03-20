@@ -52,9 +52,8 @@ jobs:
             wget https://raw.githubusercontent.com/sirnewbies/kernel_build_action/main/scripts/tissot_build_script.sh
             bash tissot_build_script.sh
           else
-            if [ "${DEVICE}" = "topaz" ]; then
-              wget https://raw.githubusercontent.com/sirnewbies/kernel_build_action/main/scripts/topaz_build_script.sh
-              bash topaz_build_script.sh
+            if [ "${DEVICE}" = "ginkgo" ]; then
+              wget https://raw.githubusercontent.com/Miracleprjkt/kernel_build_action/main/scripts/ginkgo_build_script.sh
+              bash ginkgo_build_script.sh
             fi
           fi
-
