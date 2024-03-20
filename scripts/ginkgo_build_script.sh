@@ -32,7 +32,7 @@ DEVICE="Redmi Note 8"
 export DEVICE
 CODENAME="ginkgo"
 export CODENAME
-DEFCONFIG="ginkgo-stock_defconfig"
+DEFCONFIG="vendor/trinket-perf_defconfig"
 export DEFCONFIG
 COMMIT_HASH=$(git rev-parse --short HEAD)
 export COMMIT_HASH
